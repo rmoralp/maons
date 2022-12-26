@@ -6,20 +6,21 @@
     "apps/*",
     "packages/*"
   ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
-    "turbo": "latest"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "phoenix": "rm -rf ./node_modules && rm -f ./package-lock.json && npm install --legacy-peer-deps --no-audit --no-fund"
   },
   "dependencies": {},
-  "packageManager": "npm@9.2.0"
+  "devDependencies": {
+    "@maons/lint": "*",
+    "turbo": "latest"
+  },
+  "packageManager": "npm@9.2.0",
+  "prettier": "@maons/lint/.prettierrc.js"
 }
