@@ -1,9 +1,10 @@
 {
   "name": "@maons/lint",
-  "version": "0.0.1",
+  "version": "0.1.0-beta.0",
   "main": ".eslintrc.js",
   "license": "MIT",
   "dependencies": {
+    "eslint": "8.30.0",
     "eslint-config-next": "13.1.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-turbo": "latest",
@@ -11,7 +12,6 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
     "eslint-plugin-simple-import-sort": "8.0.0",
-    "eslint": "8.30.0",
     "prettier": "2.8.1",
     "prettier-plugin-tailwindcss": "0.2.1"
   },
