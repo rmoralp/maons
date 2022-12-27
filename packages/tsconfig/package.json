@@ -1,6 +1,6 @@
 {
   "name": "@maons/tsconfig",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0",
   "files": [
     "base.json",
     "nextjs.json",
