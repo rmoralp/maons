@@ -2,7 +2,7 @@
 
 ESLint and Prettier configuration ready to use in any project.
 
-It includes support for `React.js`, `Next.js` and `Prettier`
+It includes support for `React.js`, `Next.js` and `Prettier`.
 
 ## Getting Started
 
