@@ -41,6 +41,26 @@ const NEXT_RULES = {
   '@next/next/no-html-link-for-pages': RULES.OFF
 }
 
+const JS_RULES = {
+  'accessor-pairs': RULES.OFF,
+  'no-console': RULES.WARNING,
+  'no-debugger': RULES.ERROR,
+  'no-nested-ternary': RULES.WARNING,
+  'no-prototype-builtins': RULES.OFF,
+  'no-return-await': RULES.WARNING,
+  'no-unused-expressions': RULES.OFF,
+  'no-unused-vars': [
+    RULES.WARNING,
+    {
+      vars: 'all',
+      args: 'none',
+      ignoreRestSiblings: true
+    }
+  ],
+  'no-var': RULES.WARNING,
+  strict: RULES.OFF
+}
+
 const sortGroups = [
   // Side effect imports.
   ['^\\u0000'],
@@ -89,24 +109,8 @@ module.exports = {
   rules: {
     ...REACT_RULES,
     ...NEXT_RULES,
-    'accessor-pairs': RULES.OFF,
+    ...JS_RULES,
     '@babel/no-unused-expressions': RULES.OFF,
-    'no-console': RULES.WARNING,
-    'no-debugger': RULES.ERROR,
-    'no-nested-ternary': RULES.WARNING,
-    'no-prototype-builtins': RULES.OFF,
-    'no-return-await': RULES.WARNING,
-    'no-unused-expressions': RULES.OFF,
-    'no-unused-vars': [
-      RULES.WARNING,
-      {
-        vars: 'all',
-        args: 'none',
-        ignoreRestSiblings: true
-      }
-    ],
-    'no-var': RULES.WARNING,
-    strict: RULES.OFF,
     'prettier/prettier': [RULES.WARNING, prettierOptions],
     'simple-import-sort/imports': [RULES.WARNING, {groups: sortGroups}]
   }
