@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -9,7 +9,7 @@
     "lint": "TIMING=1 eslint \"**/*.ts*\""
   },
   "devDependencies": {
-    "@maons/lint": "^0.1.0",
+    "@maons/lint": "^0.2.0",
     "@maons/tsconfig": "^0.1.0",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
