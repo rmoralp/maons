@@ -16,7 +16,7 @@ jobs:
         fetch-depth: 0
 
     - name: "Use Node 18"
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v3
       with:
         node-version: 18
 
