@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rmoralp/maons/compare/@maons/lint@0.2.0...@maons/lint@0.3.0) (2022-12-28)
+
+
+### Features
+
+* **lint:** add license ([2974962](https://github.com/rmoralp/maons/commit/2974962d07fc88b2ce1056ddb71bf4d11aa1f3da))
+
+
+
+
+
 # [0.2.0](https://github.com/rmoralp/maons/compare/@maons/lint@0.1.0...@maons/lint@0.2.0) (2022-12-28)
 
 
