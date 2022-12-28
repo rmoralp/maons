@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/rmoralp/maons/compare/@maons/lint@0.1.0...@maons/lint@0.2.0) (2022-12-28)
+
+
+### Features
+
+* **lint:** bump ([6c2abe8](https://github.com/rmoralp/maons/commit/6c2abe8d9aa92a9b9bf8b9d432ce8fa43a5f21b0))
+
+
+
+
+
 # 0.1.0 (2022-12-27)
 
 
