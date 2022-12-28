@@ -26,8 +26,9 @@ jobs:
     - name: "Release"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
         git config user.name "${{ github.actor }}"
         git config user.email "${{ github.actor}}@users.noreply.github.com"
         npx lerna version --conventional-graduate --yes
-        npx lerna publish from-git --yes
+        npx lerna publish from-git --yes NPM_TOKEN=${{ secrets.NPM_TOKEN }}
