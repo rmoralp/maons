@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.2.4...@maons/tsconfig@0.3.0) (2022-12-29)
+
+
+### Features
+
+* **tsconfig:** bump ([5c07979](https://github.com/rmoralp/maons/commit/5c0797986ba5d2ecabd93ebf1f883b01f2a368ae))
+
+
+
+
+
 ## [0.2.4](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.2.3...@maons/tsconfig@0.2.4) (2022-12-29)
 
 **Note:** Version bump only for package @maons/tsconfig
