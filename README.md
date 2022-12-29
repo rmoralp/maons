@@ -1,9 +1,10 @@
-# Maons
+# Maons 🧱
 
-## What's inside?
+Maons ("Bricks") is a set of isolated packages ready to combine and help you to create a project asap.
 
-A huge amount of isolated packages ready to combine and help you to create a project asap.
+## Available packages
 
-### Packages
-- `@maons/lint`: `eslint` configurations (includes `Next.js`, `React.js` and `Prettier` rules)
-- `@maons/tsconfig`: `tsconfig.json` files for `Node.js`, `Next.js` and `React.js` projects.
+| Name | Description |
+| -- | -- |
+| [@maons/lint](./packages/lint) | `eslint` configurations (includes `Next.js`, `React.js` and `Prettier` rules) |
+| [@maons/tsconfig](./packages/tsconfig) | `tsconfig.json` files for `Node.js`, `Next.js` and `React.js` projects. |
