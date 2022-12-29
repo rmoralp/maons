@@ -3,12 +3,18 @@ on:
   push:
     branches:
       - main
+      - beta
     pull_request:
 
 jobs:
   release:
     name: Release packages
     runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
     steps:
     - name: "Checkout"
       uses: actions/checkout@v3
@@ -20,15 +26,27 @@ jobs:
       with:
         node-version: 18
 
-    - name: "Install dependencies"
+    - name: "Install"
       run: npm run phoenix
 
-    - name: "Release"
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: "Github Identity"
       run: |
         git config user.name "${{ github.actor }}"
-        git config user.email "${{ github.actor}}@users.noreply.github.com"
-        npx lerna version --conventional-graduate --yes
-        npx lerna publish from-git --yes NPM_TOKEN=${{ secrets.NPM_TOKEN }}
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git remote set-url origin https://${{github.actor}}:${GH_TOKEN}@github.com/$GITHUB_REPOSITORY
+
+    - name: "Version"
+      run: |
+        if [ ${{ github.base_ref }} = beta ]; then
+          npx lerna version --conventional-prerelease --preid beta --yes
+        else
+          npx lerna version --conventional-graduate --yes
+        fi
+
+    - name: "NPM Identity"
+      run: |
+        echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+
+    - name: "Release"
+      run: |
+        npx lerna publish from-git --yes
