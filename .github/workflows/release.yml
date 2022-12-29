@@ -38,9 +38,9 @@ jobs:
     - name: "Version"
       run: |
         if [ ${{ github.base_ref }} = beta ]; then
-          npx lerna version --conventional-prerelease --preid beta --yes
+          npx lerna version --conventional-prerelease --preid beta --yes --no-private
         else
-          npx lerna version --conventional-graduate --yes
+          npx lerna version --conventional-graduate --yes --no-private
         fi
 
     - name: "NPM Identity"
