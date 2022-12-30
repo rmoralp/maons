@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.3.0...@maons/tsconfig@0.3.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* **tsconfig:** add license author ([f143872](https://github.com/rmoralp/maons/commit/f14387208810b4dba0c49359570dfdf63a84e9c3))
+
+
+
+
+
 # [0.3.0](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.2.4...@maons/tsconfig@0.3.0) (2022-12-29)
 
 

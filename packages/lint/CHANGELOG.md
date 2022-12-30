@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5](https://github.com/rmoralp/maons/compare/@maons/lint@0.3.4...@maons/lint@0.3.5) (2022-12-30)
+
+
+### Bug Fixes
+
+* **lint:** add license author ([3737e22](https://github.com/rmoralp/maons/commit/3737e22ee3ca1152a44e3890d78ab1652a80a7ab))
+
+
+
+
+
 ## [0.3.4](https://github.com/rmoralp/maons/compare/@maons/lint@0.3.3...@maons/lint@0.3.4) (2022-12-29)
 
 **Note:** Version bump only for package @maons/lint
