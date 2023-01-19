@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.3.1...@maons/tsconfig@0.3.2) (2023-01-19)
+
+
+### Bug Fixes
+
+* **tsconfig:** add ts as peer dep ([ab64c11](https://github.com/rmoralp/maons/commit/ab64c11c449e1366da58de6bbb015c72ba74189e))
+
+
+
+
+
 ## [0.3.1](https://github.com/rmoralp/maons/compare/@maons/tsconfig@0.3.0...@maons/tsconfig@0.3.1) (2022-12-30)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@maons/react-components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": "./src"
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "7.20.12",
     "@maons/lint": "*",
-    "@maons/tsconfig": "*",
+    "@maons/tsconfig": "^0.3.2",
     "@storybook/addon-actions": "6.5.15",
     "@storybook/addon-essentials": "6.5.15",
     "@storybook/addon-interactions": "6.5.15",
