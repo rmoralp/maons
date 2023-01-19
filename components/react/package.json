@@ -1,6 +1,10 @@
 {
   "name": "@maons/react-components",
   "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": "./src"
+  },
   "scripts": {
     "dev": "concurrently \"npm:watch:*\"",
     "build": "concurrently \"npm:build:*\"",
