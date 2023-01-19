@@ -1,25 +1,27 @@
 {
   "name": "maons",
+  "version": "0.0.0",
   "private": true,
   "workspaces": [
     "examples/*",
-    "packages/*"
+    "packages/*",
+    "components/*"
   ],
-  "version": "0.0.0",
   "engines": {
     "node": ">=18.0.0"
   },
+  "packageManager": "npm@9.2.0",
   "scripts": {
     "build": "lerna run build",
     "lint": "lerna run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "phoenix": "rm -rf ./node_modules && rm -f ./package-lock.json && npm install --legacy-peer-deps --no-audit --no-fund"
+    "deps:clean": "npx lerna exec -- rm -rf ./node_modules && rm -f ./package-lock.json",
+    "phoenix": "npm run deps:clean && npm install --legacy-peer-deps --no-audit --no-fund"
   },
   "devDependencies": {
     "@maons/lint": "*",
     "lerna": "6.3.0",
     "turbo": "latest"
   },
-  "packageManager": "npm@9.2.0",
   "prettier": "@maons/lint/.prettierrc.js"
 }
