@@ -1,4 +1,4 @@
-# Maons 🧱  React Components
+# React + Tailwind components
 
 Maons React Components is a simple, modular and accessible component library that gives you the building blocks you need to build your React+Tailwind applications.
 
