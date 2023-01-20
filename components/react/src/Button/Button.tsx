@@ -1,7 +1,12 @@
 import {PropsWithChildren} from 'react'
 
 import {cn} from '../utils/cn'
-import {styleDisabled, stylesByColor, stylesBySize} from './styles'
+import {
+  defaultStyles,
+  styleButtonDisabled,
+  stylesByColor,
+  stylesBySize
+} from './styles'
 import {ButtonColor, ButtonSize, ButtonVariant} from './types'
 
 interface ButtonProps {
@@ -18,18 +23,22 @@ const Button = ({
   children,
   className,
   color = ButtonColor.primary,
-  variant = ButtonVariant.solid,
   disabled = false,
   onClick,
   size = ButtonSize.md,
-  type
+  type,
+  variant = ButtonVariant.solid
 }: PropsWithChildren<ButtonProps>) => {
+  const isLink = variant === ButtonVariant.link
+  const disabledStyle = isLink ? {} : styleButtonDisabled
+
   return (
     <button
       className={cn(
+        defaultStyles,
         stylesBySize[size],
         stylesByColor[variant][color],
-        styleDisabled,
+        disabled && disabledStyle,
         className
       )}
       disabled={disabled}
