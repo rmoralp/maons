@@ -1,10 +1,8 @@
 {
   "name": "@maons/react-components",
   "version": "0.3.0",
-  "type": "module",
-  "exports": {
-    "./*": "./dist/*"
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "compile": "tsc",
     "dev": "concurrently \"npm:watch:*\"",
