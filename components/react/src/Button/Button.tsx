@@ -16,7 +16,7 @@ interface ButtonProps {
   onClick?: () => void
   size?: ButtonSize
   type?: 'button' | 'submit' | 'reset'
-  variant: ButtonVariant
+  variant?: ButtonVariant
 }
 
 const Button = ({
