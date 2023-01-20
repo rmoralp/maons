@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/rmoralp/maons/compare/@maons/react-components@0.4.0...@maons/react-components@0.4.1) (2023-01-20)
+
+
+### Bug Fixes
+
+* **components/react:** make variant optional ([5344541](https://github.com/rmoralp/maons/commit/5344541405c3efaa44a74fcd6bffc7bbf921c868))
+
+
+
+
+
 # [0.4.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.3.3...@maons/react-components@0.4.0) (2023-01-20)
 
 
