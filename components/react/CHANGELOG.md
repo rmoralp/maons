@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.2.0...@maons/react-components@0.3.0) (2023-01-20)
+
+
+### Features
+
+* **components/react:** compile files on prepare package ([489d537](https://github.com/rmoralp/maons/commit/489d537766f917aa66c48d45fe74d79d20f61c55))
+
+
+
+
+
 # [0.2.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.1.0...@maons/react-components@0.2.0) (2023-01-19)
 
 
