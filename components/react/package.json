@@ -3,16 +3,18 @@
   "version": "0.2.0",
   "type": "module",
   "exports": {
-    ".": "./src"
+    "./*": "./dist/*"
   },
   "scripts": {
+    "compile": "tsc",
     "dev": "concurrently \"npm:watch:*\"",
     "build": "concurrently \"npm:build:*\"",
     "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./.storybook/tailwind.css",
     "build:storybook": "build-storybook",
     "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./.storybook/tailwind.css --watch",
     "watch:storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare": "rm -rf dist && npm run compile"
   },
   "license": "ISC",
   "dependencies": {
@@ -52,5 +54,6 @@
   },
   "eslintConfig": {
     "extends": "../../node_modules/@maons/lint/.eslintrc.js"
-  }
+  },
+  "gitHead": "57f890b15dc244cb368eefad24764504b8e9723d"
 }

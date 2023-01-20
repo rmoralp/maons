@@ -1,8 +1,17 @@
 {
   "extends": "@maons/tsconfig/react-library.json",
   "compilerOptions": {
+    "outDir": "dist",
     "types": ["vitest/globals"]
   },
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "include": ["./src"],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/**/*.mdx.tsx"
+  ]
 }
