@@ -7,7 +7,7 @@ import TagDocs from './Tag.mdx'
 import {TagColor} from './types'
 
 export default {
-  title: 'Tag',
+  title: 'Data display/Tag',
   component: Tag,
   parameters: {
     docs: {
