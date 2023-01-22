@@ -29,6 +29,9 @@ jobs:
     - name: "Install"
       run: npm run phoenix
 
+    - name: "Test"
+      run: npm run test:ci
+
     - name: "Github Identity"
       run: |
         git config user.name "${{ github.actor }}"

@@ -7,7 +7,7 @@ import ButtonDocs from './Button.mdx'
 import {ButtonColor} from './types'
 
 export default {
-  title: 'Button',
+  title: 'Forms/Button',
   component: Button,
   parameters: {
     docs: {
