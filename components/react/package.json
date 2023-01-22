@@ -12,6 +12,7 @@
     "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./.storybook/tailwind.css --watch",
     "watch:storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "test": "vitest",
+    "test:ci": "vitest --run",
     "prepare": "rm -rf dist && npm run compile"
   },
   "license": "ISC",
