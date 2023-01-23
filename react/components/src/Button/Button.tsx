@@ -14,6 +14,7 @@ interface ButtonProps {
   color: ButtonColor
   disabled?: boolean
   onClick?: () => void
+  labelText?: string
   size?: ButtonSize
   type?: 'button' | 'submit' | 'reset'
   variant?: ButtonVariant
@@ -25,6 +26,7 @@ const Button = ({
   color = ButtonColor.primary,
   disabled = false,
   onClick,
+  labelText,
   size = ButtonSize.md,
   type,
   variant = ButtonVariant.solid
@@ -44,6 +46,7 @@ const Button = ({
       disabled={disabled}
       onClick={onClick}
       type={type}
+      aria-label={labelText}
     >
       {children}
     </button>
