@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.5.1...@maons/react-components@0.6.0) (2023-01-23)
+
+
+### Bug Fixes
+
+* **react/components/Button:** add aria label ([759b661](https://github.com/rmoralp/maons/commit/759b6610f3b3815411e089d893d80801fe5cad85))
+* **react/components/src/Card:** fix types ([6ec764b](https://github.com/rmoralp/maons/commit/6ec764b3fe869a111805bb81e804727d0e6de962))
+* **react/components:** add aria label and overable classNames ([da88524](https://github.com/rmoralp/maons/commit/da88524c057345569a0dffd6d225671d823282dc))
+
+
+### Features
+
+* **react/components/Card:** add card component ([aa7dba9](https://github.com/rmoralp/maons/commit/aa7dba9d30bf89ce8546411c1730b649b420baab))
+
+
+
+
+
 ## [0.5.1](https://github.com/rmoralp/maons/compare/@maons/react-components@0.5.0...@maons/react-components@0.5.1) (2023-01-22)
 
 **Note:** Version bump only for package @maons/react-components
