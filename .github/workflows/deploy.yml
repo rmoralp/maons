@@ -28,4 +28,4 @@ jobs:
         run: npm run phoenix
 
       - name: "Deploy"
-        run: npm run chromatic
+        run: npm run chromatic -w react/components
