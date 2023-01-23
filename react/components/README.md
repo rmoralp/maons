@@ -2,6 +2,7 @@
 
 Maons React Components is a simple, modular and accessible component library that gives you the building blocks you need to build your React+Tailwind applications.
 
+You can have a look to storybook playground [here](https://main--63cea501d66c7f57c939718b.chromatic.com/).
 ## Usage
 
 ### Install the package
