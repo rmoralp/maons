@@ -11,7 +11,8 @@
   },
   "ignoreChanges": [
     "**/CHANGELOG.md",
-    "**/node_modules/**"
+    "**/node_modules/**",
+    "**/*.md"
   ],
   "useWorkspaces": true,
   "version": "independent"
