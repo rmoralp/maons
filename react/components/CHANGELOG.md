@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.6.4...@maons/react-components@0.7.0) (2023-01-24)
+
+
+### Features
+
+* **react/components:** add input component ([04e5aa2](https://github.com/rmoralp/maons/commit/04e5aa271f062660911b7f4ad0fada9d1168727b))
+
+
+
+
+
 ## [0.6.4](https://github.com/rmoralp/maons/compare/@maons/react-components@0.6.3...@maons/react-components@0.6.4) (2023-01-23)
 
 **Note:** Version bump only for package @maons/react-components
