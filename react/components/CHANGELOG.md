@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/rmoralp/maons/compare/@maons/react-components@0.7.0...@maons/react-components@0.7.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* **react/components:** export input ([7638a83](https://github.com/rmoralp/maons/commit/7638a833c8e79565a6d8ba3093420f0b946026b2))
+
+
+
+
+
 # [0.7.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.6.4...@maons/react-components@0.7.0) (2023-01-24)
 
 
