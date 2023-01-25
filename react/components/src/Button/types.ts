@@ -18,3 +18,10 @@ export enum ButtonColor {
   secondary = 'secondary',
   success = 'success'
 }
+
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  color: ButtonColor
+  size?: ButtonSize
+  variant?: ButtonVariant
+}
