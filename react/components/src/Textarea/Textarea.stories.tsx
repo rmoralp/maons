@@ -2,20 +2,20 @@ import React from 'react'
 
 import {ComponentMeta, ComponentStory} from '@storybook/react'
 
-import {Input} from './Input'
-import InputDocs from './Input.mdx'
+import {Textarea} from './Textarea'
+import TextareaDocs from './Textarea.mdx'
 
 export default {
-  title: 'Forms/Input',
-  component: Input,
+  title: 'Forms/Textarea',
+  component: Textarea,
   parameters: {
     docs: {
-      page: InputDocs
+      page: TextareaDocs
     }
   }
-} as ComponentMeta<typeof Input>
+} as ComponentMeta<typeof Textarea>
 
-const Template: ComponentStory<typeof Button> = args => <Input {...args} />
+const Template: ComponentStory<typeof Button> = args => <Textarea {...args} />
 
 export const Default = Template.bind({})
 Default.args = {

@@ -2,39 +2,37 @@ import React from 'react'
 
 import {ComponentMeta, ComponentStory} from '@storybook/react'
 
-import {Input} from './Input'
-import InputDocs from './Input.mdx'
+import {Checkbox} from './Checkbox'
+import CheckboxDocs from './Checkbox.mdx'
 
 export default {
-  title: 'Forms/Input',
-  component: Input,
+  title: 'Forms/Checkbox',
+  component: Checkbox,
   parameters: {
     docs: {
-      page: InputDocs
+      page: CheckboxDocs
     }
   }
-} as ComponentMeta<typeof Input>
+} as ComponentMeta<typeof Checkbox>
 
-const Template: ComponentStory<typeof Button> = args => <Input {...args} />
+const Template: ComponentStory<typeof Button> = args => <Checkbox {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-  placeholder: 'Barcelona',
   disabled: false,
   isInvalid: false
 }
 
 export const Invalid = Template.bind({})
 Invalid.args = {
-  placeholder: 'Barcelona',
   disabled: false,
   isInvalid: true,
-  value: 'Bar'
+  checked: false
 }
 
 export const Disabled = Template.bind({})
 Disabled.args = {
   disabled: true,
   isInvalid: false,
-  value: 'Barcelona'
+  checked: false
 }

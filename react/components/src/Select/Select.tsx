@@ -2,12 +2,12 @@ import {forwardRef} from 'react'
 
 import {cn} from '../utils/cn'
 import {defaultStyles, disabledStyles, invalidStyles} from './styles'
-import {InputProps} from './types'
+import {SelectProps} from './types'
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
+const Select = forwardRef<HTMLSelectElement, SelectProps>(
   ({className, isInvalid, ...props}, ref) => {
     return (
-      <input
+      <select
         className={cn(
           defaultStyles,
           disabledStyles,
@@ -21,6 +21,6 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
   }
 )
 
-Input.displayName = 'Input'
+Select.displayName = 'Select'
 
-export {Input}
+export {Select}

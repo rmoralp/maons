@@ -2,9 +2,9 @@ import {forwardRef} from 'react'
 
 import {cn} from '../utils/cn'
 import {defaultStyles, disabledStyles, invalidStyles} from './styles'
-import {InputProps} from './types'
+import {CheckboxProps} from './types'
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
+const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
   ({className, isInvalid, ...props}, ref) => {
     return (
       <input
@@ -16,11 +16,12 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         )}
         ref={ref}
         {...props}
+        type="checkbox"
       />
     )
   }
 )
 
-Input.displayName = 'Input'
+Checkbox.displayName = 'Checkbox'
 
-export {Input}
+export {Checkbox}
