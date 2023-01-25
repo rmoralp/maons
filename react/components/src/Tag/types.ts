@@ -12,3 +12,10 @@ export enum TagColor {
   success = 'success',
   gray = 'gray'
 }
+
+export interface TagProps extends HTMLAttributes<HTMLSpanElement> {
+  className?: string
+  color: TagColor
+  labelText?: string
+  size?: TagSize
+}

@@ -2,21 +2,14 @@ import {PropsWithChildren} from 'react'
 
 import {cn} from '../utils/cn'
 import {defaultStyles, stylesByColor, stylesBySize} from './styles'
-import {TagColor, TagSize} from './types'
-
-interface TagProps {
-  className?: string
-  color: TagColor
-  labelText?: string
-  size?: TagSize
-}
+import {TagColor, TagProps, TagSize} from './types'
 
 const Tag = ({
   children,
   className,
   color = TagColor.primary,
-  labelText,
-  size = TagSize.sm
+  size = TagSize.sm,
+  ...props
 }: PropsWithChildren<TagProps>) => {
   return (
     <span
@@ -26,7 +19,7 @@ const Tag = ({
         stylesBySize[size],
         className
       )}
-      aria-label={labelText}
+      {...props}
     >
       {children}
     </span>
