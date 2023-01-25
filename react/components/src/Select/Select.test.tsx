@@ -1,6 +1,4 @@
-import {vi} from 'vitest'
-
-import {fireEvent, render, screen} from '@testing-library/react'
+import {render, screen} from '@testing-library/react'
 
 import {Select} from './Select'
 import {SelectOption} from './SelectOption'

@@ -1,5 +1,6 @@
 export {Button} from './Button'
 export {Card, CardBody} from './Card'
+export {Checkbox} from './Checkbox'
 export {Input} from './Input'
 export {Select, SelectOption} from './Select'
 export {Textarea} from './Textarea'
