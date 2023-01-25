@@ -1,12 +1,7 @@
-import {ElementType, PropsWithChildren} from 'react'
+import {PropsWithChildren} from 'react'
 
 import {cn} from '../utils/cn'
-
-interface CardProps {
-  as?: ElementType
-  className?: string
-  hoverable?: boolean
-}
+import {CardProps} from './types'
 
 const element = 'div'
 
