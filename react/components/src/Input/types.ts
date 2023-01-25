@@ -1,5 +1,5 @@
-export enum InputSize {
-  lg = 'lg',
-  md = 'md',
-  sm = 'sm'
+import {InputHTMLAttributes} from 'react'
+
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
+  isInvalid?: boolean
 }

@@ -19,12 +19,15 @@ const Template: ComponentStory<typeof Button> = args => <Input {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-  placeholder: 'Barcelona'
+  placeholder: 'Barcelona',
+  disabled: false,
+  isInvalid: false
 }
 
 export const Invalid = Template.bind({})
 Invalid.args = {
   placeholder: 'Barcelona',
+  disabled: false,
   isInvalid: true,
   value: 'Bar'
 }
@@ -32,5 +35,6 @@ Invalid.args = {
 export const Disabled = Template.bind({})
 Disabled.args = {
   disabled: true,
+  isInvalid: false,
   value: 'Barcelona'
 }
