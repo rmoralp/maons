@@ -11,7 +11,7 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input placeholder={placeholder} labelText={labelText} />)
+    render(<Input placeholder={placeholder} aria-label={labelText} />)
 
     // Then
     const input = screen.getByLabelText(labelText)
@@ -26,7 +26,7 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onChange={onChange} labelText={labelText} />)
+    render(<Input onChange={onChange} aria-label={labelText} />)
 
     // And
     const input = screen.getByLabelText(labelText)
@@ -44,7 +44,7 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onClick={onClick} labelText={labelText} />)
+    render(<Input onClick={onClick} aria-label={labelText} />)
 
     // And
     const input = screen.getByLabelText(labelText)
@@ -61,7 +61,7 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onInput={onInput} labelText={labelText} />)
+    render(<Input onInput={onInput} aria-label={labelText} />)
 
     // And
     const input = screen.getByLabelText(labelText)

@@ -2,22 +2,22 @@ import {vi} from 'vitest'
 
 import {fireEvent, render, screen} from '@testing-library/react'
 
-import {Input} from './Input'
+import {Textarea} from './Textarea'
 
-describe('Input', () => {
+describe('Textarea', () => {
   it('renders correctly with placeholder', () => {
     // Given
     const placeholder = 'Barcelona'
     const labelText = 'city-input'
 
     // And
-    render(<Input placeholder={placeholder} labelText={labelText} />)
+    render(<Textarea placeholder={placeholder} aria-label={labelText} />)
 
     // Then
-    const input = screen.getByLabelText(labelText)
+    const textarea = screen.getByLabelText(labelText)
 
-    expect(input).toBeVisible()
-    expect(input.placeholder).toEqual(placeholder)
+    expect(textarea).toBeVisible()
+    expect(textarea.placeholder).toEqual(placeholder)
   })
 
   it('has on change event handler', () => {
@@ -26,15 +26,15 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onChange={onChange} labelText={labelText} />)
+    render(<Textarea onChange={onChange} aria-label={labelText} />)
 
     // And
-    const input = screen.getByLabelText(labelText)
+    const textarea = screen.getByLabelText(labelText)
 
-    fireEvent.change(input, {target: {value: 'Barcelona'}})
+    fireEvent.change(textarea, {target: {value: 'Barcelona'}})
 
     // Then
-    expect(input.value).toBe('Barcelona')
+    expect(textarea.value).toBe('Barcelona')
     expect(onChange).toHaveBeenCalled()
   })
 
@@ -44,12 +44,12 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onClick={onClick} labelText={labelText} />)
+    render(<Textarea onClick={onClick} aria-label={labelText} />)
 
     // And
-    const input = screen.getByLabelText(labelText)
+    const textarea = screen.getByLabelText(labelText)
 
-    fireEvent.click(input)
+    fireEvent.click(textarea)
 
     // Then
     expect(onClick).toHaveBeenCalled()
@@ -61,15 +61,15 @@ describe('Input', () => {
     const labelText = 'city-input'
 
     // And
-    render(<Input onInput={onInput} labelText={labelText} />)
+    render(<Textarea onInput={onInput} aria-label={labelText} />)
 
     // And
-    const input = screen.getByLabelText(labelText)
+    const textarea = screen.getByLabelText(labelText)
 
-    fireEvent.input(input, {target: {value: 'Barcelona'}})
+    fireEvent.input(textarea, {target: {value: 'Barcelona'}})
 
     // Then
-    expect(input.value).toBe('Barcelona')
+    expect(textarea.value).toBe('Barcelona')
     expect(onInput).toHaveBeenCalled()
   })
 })
