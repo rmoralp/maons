@@ -25,7 +25,7 @@ jobs:
           node-version: 18
 
       - name: "Install"
-        run: npm run phoenix
+        run: npm ci
 
       - name: "Deploy"
         run: npm run deploy -w react/components

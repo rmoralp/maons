@@ -27,7 +27,7 @@ jobs:
         node-version: 18
 
     - name: "Install"
-      run: npm run phoenix
+      run: npm ci
 
     - name: "Test"
       run: npm run test:ci
