@@ -11,8 +11,8 @@ describe('Select', () => {
 
     // And
     render(
-      <Select placeholder={placeholder} aria-label={labelText}>
-        <SelectOption disabled selected>
+      <Select placeholder={placeholder} aria-label={labelText} defaultValue={0}>
+        <SelectOption disabled value={0}>
           Select an option
         </SelectOption>
         <SelectOption value={1}>Item 1</SelectOption>

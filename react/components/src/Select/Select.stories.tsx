@@ -17,8 +17,8 @@ export default {
 } as ComponentMeta<typeof Select>
 
 const Template: ComponentStory<typeof Button> = args => (
-  <Select {...args}>
-    <SelectOption disabled selected>
+  <Select {...args} defaultValue={0}>
+    <SelectOption value={0} disabled>
       Select an option
     </SelectOption>
     <SelectOption value={1}>Item 1</SelectOption>
