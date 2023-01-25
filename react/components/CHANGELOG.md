@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.2](https://github.com/rmoralp/maons/compare/@maons/react-components@0.8.0...@maons/react-components@0.8.2) (2023-01-25)
+
+
+### Bug Fixes
+
+* **react/components:** bump version ([d369f76](https://github.com/rmoralp/maons/commit/d369f76a6fefd35e955558f4dbc996c8bff37e18))
+
+
+
+
+
 # [0.8.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.7.1...@maons/react-components@0.8.0) (2023-01-25)
 
 
