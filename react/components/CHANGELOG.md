@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.7.1...@maons/react-components@0.8.0) (2023-01-25)
+
+
+### Bug Fixes
+
+* **react/components:** add props destructure ([33c977c](https://github.com/rmoralp/maons/commit/33c977c55e0bb51f45ce721b8df79f9c506065ab))
+* **react/components:** improve Button types ([d43c4b9](https://github.com/rmoralp/maons/commit/d43c4b9566d1bf4f51217fe5bf10edc7e555721a))
+* **react/components:** improve input ([f4750d3](https://github.com/rmoralp/maons/commit/f4750d347b968dee62e582b5bd4117ada6385c0f))
+* **react/components:** input and textarea tests ([891bea5](https://github.com/rmoralp/maons/commit/891bea540ef57b6f02345d084037f9420cfff9e9))
+* **react/components:** Select test ([49cd59f](https://github.com/rmoralp/maons/commit/49cd59f4dc7975c8a2f4b8e71df35485fbf3daba))
+* **react/components:** tag types ([0cdc318](https://github.com/rmoralp/maons/commit/0cdc318aec46112845e3d27907872202fd8b58a2))
+* **react/components:** types ([b7a00df](https://github.com/rmoralp/maons/commit/b7a00df7c1b05024facf24288b0bc93ec9d0ce15))
+* **react/components:** types ([fe998c0](https://github.com/rmoralp/maons/commit/fe998c0ca0d5e22df5bff5829e40a276ff0c00e8))
+
+
+### Features
+
+* **react/components:** add Checkbox ([02f51d6](https://github.com/rmoralp/maons/commit/02f51d686b057bb9bebe1826cfcebb16041026d6))
+* **react/components:** add Select component ([77015ab](https://github.com/rmoralp/maons/commit/77015ab8173c604de210fb7220d1b9121980bf3a))
+* **react/components:** add textarea component ([61b4ae4](https://github.com/rmoralp/maons/commit/61b4ae4e4dae1fccd327db0122d50dee569b85f1))
+
+
+
+
+
 ## [0.7.1](https://github.com/rmoralp/maons/compare/@maons/react-components@0.7.0...@maons/react-components@0.7.1) (2023-01-24)
 
 
