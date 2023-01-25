@@ -1,3 +1,5 @@
+import {HTMLAttributes} from 'react'
+
 export enum TagSize {
   lg = 'lg',
   md = 'md',
