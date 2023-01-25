@@ -9,7 +9,8 @@ const Card = ({
   as: Element = element,
   className,
   children,
-  hoverable = false
+  hoverable = false,
+  ...props
 }: PropsWithChildren<CardProps>) => {
   return (
     <Element
@@ -18,6 +19,7 @@ const Card = ({
         hoverable && 'transition-all hover:shadow-lg',
         className
       )}
+      {...props}
     >
       {children}
     </Element>
