@@ -13,6 +13,43 @@ Maons ("Bricks") is a set of isolated packages ready to combine and help you to 
 | [@maons/tsconfig](./packages/tsconfig) | `tsconfig.json` files for `Node.js`, `Next.js` and `React.js` projects. |
 | [@maons/react-components](./react/components) | Simple, modular and accessible component library for React and Tailwindcss |
 
+## Roadmap:
+
+### `@maons/react-components`
+Forms:
+
+- [ ] Label
+- [ ] Radio
+- [ ] Fieldset
+
+Data display:
+
+- [ ] Code
+- [ ] Separator
+- [ ] List
+- [ ] Table
+
+Feedback: 
+
+- [ ] Alert
+- [ ] Toast
+
+Typography:
+
+- [ ] Text
+- [ ] Heading
+- [ ] Highlight
+
+Overlay:
+
+- [ ] Modal
+
+Media:
+
+- [ ] Avatar
+- [ ] Image
+- [ ] Icon
+
 
 <!-- Badges -->
 [nodejs-badge]: https://img.shields.io/badge/Node.js-%3E=18.0-blue.svg
