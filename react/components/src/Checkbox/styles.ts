@@ -3,7 +3,7 @@ export const defaultStyles = [
   'appearance-none bg-white border border-gray-300',
   'w-4 h-4 text-blue-600 ',
   'rounded',
-  'focus:ring-blue-500 focus:ring-2 focus:ring-2 focus:ring-offset-1',
+  'focus:ring-blue-500 focus:ring-2 focus:ring-offset-2',
   'checked:bg-blue-600 checked:border-transparent',
   'after:content-["✓"] after:text-white after:text-sm',
   'after:absolute after:top-2/4 after:left-2/4 after:-translate-y-1/2 after:-translate-x-1/2',

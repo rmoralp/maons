@@ -16,7 +16,7 @@ export default {
   }
 } as ComponentMeta<typeof Card>
 
-const Template: ComponentStory<typeof Button> = ({children, ...args}) => (
+const Template: ComponentStory<typeof Card> = ({children, ...args}) => (
   <Card {...args}>
     <CardBody>{children}</CardBody>
   </Card>

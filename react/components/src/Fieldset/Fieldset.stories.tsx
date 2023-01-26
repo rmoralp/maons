@@ -16,7 +16,7 @@ export default {
   }
 } as ComponentMeta<typeof Fieldset>
 
-const Template: ComponentStory<typeof Button> = args => <Fieldset {...args} />
+const Template: ComponentStory<typeof Fieldset> = args => <Fieldset {...args} />
 
 const Content = () => {
   return (

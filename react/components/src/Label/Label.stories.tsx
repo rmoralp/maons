@@ -15,7 +15,7 @@ export default {
   }
 } as ComponentMeta<typeof Label>
 
-const Template: ComponentStory<typeof Button> = args => <Label {...args} />
+const Template: ComponentStory<typeof Label> = args => <Label {...args} />
 
 export const Default = Template.bind({})
 Default.args = {

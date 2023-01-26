@@ -4,14 +4,13 @@ import {Select} from './Select'
 import {SelectOption} from './SelectOption'
 
 describe('Select', () => {
-  it('renders correctly with placeholder', () => {
+  it('renders correctly', () => {
     // Given
-    const placeholder = 'Barcelona'
     const labelText = 'city-select'
 
     // And
     render(
-      <Select placeholder={placeholder} aria-label={labelText} defaultValue={0}>
+      <Select aria-label={labelText} defaultValue={0}>
         <SelectOption disabled value={0}>
           Select an option
         </SelectOption>
