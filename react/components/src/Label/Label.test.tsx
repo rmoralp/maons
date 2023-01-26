@@ -3,7 +3,7 @@ import {render, screen} from '@testing-library/react'
 import {Label} from './Label'
 
 describe('Label', () => {
-  it('renders correctly with placeholder', () => {
+  it('renders correctly with content', () => {
     // Given
     const text = 'City'
 
