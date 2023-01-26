@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.8.2...@maons/react-components@0.9.0) (2023-01-26)
+
+
+### Bug Fixes
+
+* **react/components:** minor storybook fixes ([7b98db0](https://github.com/rmoralp/maons/commit/7b98db0eb433ec44a0186d7c2df0ce754259828c))
+* **react/components:** radio type ([013a863](https://github.com/rmoralp/maons/commit/013a8631c981afac909f9e409b01261ec2ff19a3))
+
+
+### Features
+
+* **react/components:** add fieldset component ([328fa11](https://github.com/rmoralp/maons/commit/328fa119173644a03e7bc38ddf8621e040ef7b79))
+* **react/components:** add Label component ([f7b0f57](https://github.com/rmoralp/maons/commit/f7b0f57ff9b2afe1684585f09833a802549a098c))
+* **react/components:** add Radio component ([56733e2](https://github.com/rmoralp/maons/commit/56733e25866e769b0e9e47c3654db630ccdc8376))
+
+
+
+
+
 ## [0.8.2](https://github.com/rmoralp/maons/compare/@maons/react-components@0.8.0...@maons/react-components@0.8.2) (2023-01-25)
 
 
