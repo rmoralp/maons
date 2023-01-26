@@ -19,12 +19,6 @@ Maons ("Bricks") is a set of isolated packages ready to combine and help you to 
 > This is work in progress. I'm building this in public. You can follow the progress on Twitter [@rmoralp][twitter].
 
 ### `@maons/react-components`
-Forms:
-
-- [ ] Label
-- [ ] Radio
-- [ ] Fieldset
-
 Data display:
 
 - [ ] Code

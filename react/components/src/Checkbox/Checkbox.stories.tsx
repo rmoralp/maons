@@ -15,7 +15,7 @@ export default {
   }
 } as ComponentMeta<typeof Checkbox>
 
-const Template: ComponentStory<typeof Button> = args => <Checkbox {...args} />
+const Template: ComponentStory<typeof Checkbox> = args => <Checkbox {...args} />
 
 export const Default = Template.bind({})
 Default.args = {

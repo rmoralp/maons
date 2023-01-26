@@ -15,7 +15,7 @@ export default {
   }
 } as ComponentMeta<typeof Textarea>
 
-const Template: ComponentStory<typeof Button> = args => <Textarea {...args} />
+const Template: ComponentStory<typeof Textarea> = args => <Textarea {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
