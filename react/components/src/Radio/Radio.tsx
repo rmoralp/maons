@@ -1,22 +1,17 @@
 import {forwardRef} from 'react'
 
 import {cn} from '../utils/cn'
-import {defaultStyles, disabledStyles, invalidStyles} from './styles'
+import {defaultStyles, disabledStyles} from './styles'
 import {RadioProps} from './types'
 
 const Radio = forwardRef<HTMLInputElement, RadioProps>(
-  ({className, isInvalid, ...props}, ref) => {
+  ({className, ...props}, ref) => {
     return (
       <input
-        className={cn(
-          defaultStyles,
-          disabledStyles,
-          isInvalid && invalidStyles,
-          className
-        )}
+        className={cn(defaultStyles, disabledStyles, className)}
         ref={ref}
         {...props}
-        type="checkbox"
+        type="radio"
       />
     )
   }
