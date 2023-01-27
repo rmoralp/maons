@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.9.0...@maons/react-components@0.10.0) (2023-01-27)
+
+
+### Features
+
+* **react/components:** add Modal component ([98a78cd](https://github.com/rmoralp/maons/commit/98a78cd4acbba51efd0ac13fc83772a0099abc7f))
+
+
+
+
+
 # [0.9.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.8.2...@maons/react-components@0.9.0) (2023-01-26)
 
 
