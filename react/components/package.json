@@ -19,6 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@radix-ui/react-dialog": "1.0.2",
     "clsx": "1.2.1",
     "react": "18.2.0",
     "react-icons": "4.7.1",
@@ -56,8 +57,5 @@
   },
   "eslintConfig": {
     "extends": "../../node_modules/@maons/lint/.eslintrc.js"
-  },
-  "gitHead": "57f890b15dc244cb368eefad24764504b8e9723d",
-  "readme": "ERROR: No README data found!",
-  "_id": "@maons/react-components@0.5.1"
+  }
 }

@@ -37,10 +37,6 @@ Typography:
 - [ ] Heading
 - [ ] Highlight
 
-Overlay:
-
-- [ ] Modal
-
 Media:
 
 - [ ] Avatar

@@ -2,8 +2,6 @@ import {TagColor, TagSize} from './types'
 
 export const defaultStyles = 'inline-block rounded-md truncate transition-all'
 
-// `truncate rounded-lg bg-orange-200 px-2 text-sm text-orange-900 ${dynamicClassNames}`
-
 export const stylesBySize = {
   [TagSize.xs]: 'py-0 px-2 text-xs',
   [TagSize.sm]: 'py-0 px-2 text-sm',
