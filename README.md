@@ -33,7 +33,7 @@ Feedback:
 
 Typography:
 
-- [ ] Text
+- [ ] blockquote
 - [ ] Highlight
 
 Media:
