@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.12.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.11.0...@maons/react-components@0.12.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* **react/components:** fix mdx examples ([d335e03](https://github.com/rmoralp/maons/commit/d335e03fb657114311417cb5139b863c340abfbc))
+
+
+### Features
+
+* **react/components:** add Avatar component ([a07c968](https://github.com/rmoralp/maons/commit/a07c9683f013c638e04fc41af8a1cb5fd4f9e8f6))
+* **react/components:** add Image component ([492c8a4](https://github.com/rmoralp/maons/commit/492c8a41ca0005f9b244153c06eb5cd9c4485334))
+
+
+
+
+
 # [0.11.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.10.0...@maons/react-components@0.11.0) (2023-01-30)
 
 
