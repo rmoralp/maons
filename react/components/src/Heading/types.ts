@@ -9,4 +9,6 @@ export enum HeadingElement {
   h6 = 'h6'
 }
 
-export interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {}
+export interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
+  as?: HeadingElement
+}

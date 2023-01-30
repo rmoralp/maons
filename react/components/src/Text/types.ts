@@ -22,4 +22,6 @@ export enum TextElement {
   u = 'u'
 }
 
-export interface TextProps extends ParamHTMLAttributes<HTMLParagraphElement> {}
+export interface TextProps extends ParamHTMLAttributes<HTMLParagraphElement> {
+  as?: TextElement
+}

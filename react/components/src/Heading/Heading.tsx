@@ -5,10 +5,10 @@ import {defaultStyles, stylesByElement} from './styles'
 import {HeadingElement, HeadingProps} from './types'
 
 const Heading = forwardRef<HTMLHeadingElement, HeadingProps>(
-  ({as: element = HeadingElement.h1, className, ...props}, ref) => {
-    const HeadingElement = element
+  ({as: element, className, ...props}, ref) => {
+    const Component = element || HeadingElement.h1
     return (
-      <HeadingElement
+      <Component
         className={cn(defaultStyles, stylesByElement[element], className)}
         ref={ref}
         {...props}

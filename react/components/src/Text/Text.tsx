@@ -5,15 +5,16 @@ import {cn} from '../utils/cn'
 import {TextElement, TextProps} from './types'
 
 const markElement = TextElement.mark
+
 const Text = forwardRef<HTMLParagraphElement, TextProps>(
-  ({as: element = TextElement.p, className, ...props}, ref) => {
+  ({as: element, className, ...props}, ref) => {
     if (element === markElement) {
       return <Highlight {...props} />
     }
 
-    const TextElement = element
+    const Component = element || TextElement.p
 
-    return <TextElement className={cn(className)} ref={ref} {...props} />
+    return <Component className={cn(className)} ref={ref} {...props} />
   }
 )
 Text.displayName = 'Text'
