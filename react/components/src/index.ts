@@ -1,3 +1,4 @@
+export {Avatar} from './Avatar'
 export {Button} from './Button'
 export {Blockquote, BlockquoteCite, BlockquoteContent} from './Blockquote'
 export {Card, CardBody} from './Card'
@@ -5,6 +6,7 @@ export {Checkbox} from './Checkbox'
 export {Fieldset} from './Fieldset'
 export {Heading} from './Heading'
 export {Highlight} from './Highlight'
+export {Image} from './Image'
 export {Input} from './Input'
 export {Label} from './Label'
 export {

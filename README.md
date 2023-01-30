@@ -2,6 +2,8 @@
 
 [![Node.js version][nodejs-badge]][nodejs]
 [![npm][npm-badge]][npm]
+![tests][tests-ci-badge]
+
 
 Maons ("Bricks") is a set of isolated packages ready to combine and help you to create a project asap.
 
@@ -31,11 +33,6 @@ Feedback:
 - [ ] Alert
 - [ ] Toast
 
-Media:
-
-- [ ] Avatar
-- [ ] Image
-
 ## License
 Licensed under the [MIT license][license].
 
@@ -45,6 +42,8 @@ Licensed under the [MIT license][license].
 
 [npm-badge]: https://img.shields.io/badge/npm-%3E=v9.0.0-blue
 [npm]: https://docs.npmjs.com/cli/v9
+
+[tests-ci-badge]: https://github.com/rmoralp/maons/actions/workflows/tests.yml/badge.svg
 
 <!-- Stuff -->
 [twitter]: https://twitter.com/rmoralp
