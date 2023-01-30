@@ -1,3 +1,4 @@
+export {Avatar} from './Avatar'
 export {Button} from './Button'
 export {Blockquote, BlockquoteCite, BlockquoteContent} from './Blockquote'
 export {Card, CardBody} from './Card'
