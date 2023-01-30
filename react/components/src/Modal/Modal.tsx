@@ -1,10 +1,10 @@
 'use client'
 
 import {ComponentPropsWithoutRef, ElementRef, forwardRef} from 'react'
-import {IoClose} from 'react-icons/io5'
 
 import * as Dialog from '@radix-ui/react-dialog'
 
+import {CloseIcon} from '../Icons/Close'
 import {cn} from '../utils/cn'
 
 const Modal = Dialog.Root
@@ -63,7 +63,7 @@ const ModalContent = forwardRef<
           'focus:ring-primary-500 focus:outline-none focus:ring focus:ring-opacity-75'
         )}
       >
-        <IoClose className="h-6 w-6" />
+        <CloseIcon className="h-6 w-6" />
         <span className="sr-only">Close</span>
       </Dialog.Close>
     </Dialog.Content>
