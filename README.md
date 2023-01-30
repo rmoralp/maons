@@ -31,17 +31,10 @@ Feedback:
 - [ ] Alert
 - [ ] Toast
 
-Typography:
-
-- [ ] Text
-- [ ] Heading
-- [ ] Highlight
-
 Media:
 
 - [ ] Avatar
 - [ ] Image
-- [ ] Icon
 
 ## License
 Licensed under the [MIT license][license].
