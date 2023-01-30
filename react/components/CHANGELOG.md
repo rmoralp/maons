@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.10.0...@maons/react-components@0.11.0) (2023-01-30)
+
+
+### Bug Fixes
+
+* **react/component:** types ([1c806d3](https://github.com/rmoralp/maons/commit/1c806d38d08fa4b2e9de5c5939b16d2f1e412ed6))
+
+
+### Features
+
+* **react/components:** add Blockquote component ([064c50f](https://github.com/rmoralp/maons/commit/064c50f900eeb5c14a033805df5c2a427a13cc7e))
+* **react/components:** add Heading ([3ab3a49](https://github.com/rmoralp/maons/commit/3ab3a49b517d08132b813f871393787fe1044afe))
+* **react/components:** add Highlight component ([f7f3acb](https://github.com/rmoralp/maons/commit/f7f3acb759360e77a98feef82bde0059f349f220))
+* **react/components:** add Text component ([5192ff7](https://github.com/rmoralp/maons/commit/5192ff7f933978eefb3a636ba357c57b1a3328a8))
+* **react/components:** use Highlight for mark elements in Text ([88dd4ff](https://github.com/rmoralp/maons/commit/88dd4ff071643ce3172737d71a6708136d6a24d7))
+
+
+
+
+
 # [0.10.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.9.0...@maons/react-components@0.10.0) (2023-01-27)
 
 
