@@ -13,7 +13,7 @@ describe('Image', () => {
     render(<Image src={src} alt={alt} />)
 
     // Then
-    const image = screen.getByRole('image')
+    const image = screen.getByRole('img')
 
     expect(image).toBeVisible()
   })

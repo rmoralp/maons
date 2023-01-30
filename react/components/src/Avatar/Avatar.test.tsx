@@ -1,20 +1,20 @@
 import {render, screen} from '@testing-library/react'
 
-import {Image} from './Image'
+import {Avatar} from './Avatar'
 
-describe('Image', () => {
+describe('Avatar', () => {
   it('renders correctly', () => {
     // Given
     const src =
-      'https://upload.wikimedia.org/wikipedia/commons/8/86/Landscape_mountain.jpg'
-    const alt = 'landscape'
+      'https://this-person-does-not-exist.com/img/avatar-828c22675120d5449af9c3df6e53842f.jpg'
+    const alt = 'John Doe'
 
     // And
-    render(<Image src={src} alt={alt} />)
+    render(<Avatar src={src} alt={alt} />)
 
     // Then
-    const image = screen.getByRole('image')
+    const avatar = screen.getByRole('img')
 
-    expect(image).toBeVisible()
+    expect(avatar).toBeVisible()
   })
 })
