@@ -43,7 +43,7 @@ Licensed under the [MIT license][license].
 [npm-badge]: https://img.shields.io/badge/npm-%3E=v9.0.0-blue
 [npm]: https://docs.npmjs.com/cli/v9
 
-[tests-ci-badge]: https://github.com/rmoralp/maons/actions/workflows/tests.yml/badge.svg
+[tests-ci-badge]: https://github.com/rmoralp/maons/actions/workflows/tests.yml/badge.svg?branch=main
 
 <!-- Stuff -->
 [twitter]: https://twitter.com/rmoralp
