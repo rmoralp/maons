@@ -31,11 +31,6 @@ Feedback:
 - [ ] Alert
 - [ ] Toast
 
-Typography:
-
-- [ ] blockquote
-- [ ] Highlight
-
 Media:
 
 - [ ] Avatar

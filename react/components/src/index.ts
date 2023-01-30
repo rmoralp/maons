@@ -1,4 +1,5 @@
 export {Button} from './Button'
+export {Blockquote, BlockquoteCite, BlockquoteContent} from './Blockquote'
 export {Card, CardBody} from './Card'
 export {Checkbox} from './Checkbox'
 export {Fieldset} from './Fieldset'
