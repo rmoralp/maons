@@ -31,11 +31,6 @@ Feedback:
 - [ ] Alert
 - [ ] Toast
 
-Media:
-
-- [ ] Avatar
-- [ ] Image
-
 ## License
 Licensed under the [MIT license][license].
 
