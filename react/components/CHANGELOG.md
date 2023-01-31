@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.12.3...@maons/react-components@0.13.0) (2023-01-31)
+
+
+### Bug Fixes
+
+* **react/component:** avatar default size ([ec9009d](https://github.com/rmoralp/maons/commit/ec9009d8a74bb551a278488d9ccdca5daf7476a5))
+
+
+### Features
+
+* **react/components:** add Code component ([1613ff8](https://github.com/rmoralp/maons/commit/1613ff87cb2e7b82935f1a94d5d15a2ef5b7979d))
+* **react/components:** add Link component ([02e3a05](https://github.com/rmoralp/maons/commit/02e3a05b6f2dac3158f5f54f859234641c382f40))
+* **react/components:** add List component ([724500e](https://github.com/rmoralp/maons/commit/724500e72a7540b3a1c7ed99f8df7bc634695e51))
+* **react/components:** add Separator component ([d7b1597](https://github.com/rmoralp/maons/commit/d7b15978d28668b32ebbf01dfa70d799178092dd))
+
+
+
+
+
 ## [0.12.3](https://github.com/rmoralp/maons/compare/@maons/react-components@0.12.2...@maons/react-components@0.12.3) (2023-01-30)
 
 
