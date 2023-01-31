@@ -58,3 +58,9 @@ const Example = () => {
   )
 }
 ```
+
+### Pending components 
+
+- [ ] Data display / Table
+- [ ] Feedback / Alert
+- [ ] Feedback / Toast
