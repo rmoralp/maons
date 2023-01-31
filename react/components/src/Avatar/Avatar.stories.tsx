@@ -21,7 +21,7 @@ const Template: ComponentStory<typeof Avatar> = args => <Avatar {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-  src: 'https://this-person-does-not-exist.com/img/avatar-828c22675120d5449af9c3df6e53842f.jpg',
-  alt: 'John Doe',
-  size: AvatarSize.xs
+  src: 'https://randomuser.me/api/portraits/women/12.jpg',
+  alt: 'Jane Doe',
+  size: AvatarSize.md
 }

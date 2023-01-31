@@ -573,8 +573,20 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-2 {
@@ -655,10 +667,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .max-w-full {
@@ -916,8 +924,34 @@ video {
   padding-right: 0px;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-right {
   text-align: right;
+}
+
+.font-mono {
+  font-family: Courier, monospace;
 }
 
 .text-sm {
@@ -1006,6 +1040,11 @@ video {
   color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity));
+}
+
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
@@ -1014,6 +1053,11 @@ video {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
@@ -1034,6 +1078,10 @@ video {
 .placeholder-slate-300::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(203 213 225 / var(--tw-placeholder-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .shadow {
@@ -1311,4 +1359,67 @@ body {
   .md\:w-full {
     width: 100%;
   }
+}
+
+.\[\&_code\]\:border-0 code {
+  border-width: 0px;
+}
+
+.\[\&_li\]\:list-disc li {
+  list-style-type: disc;
+}
+
+.\[\&_li\]\:list-decimal li {
+  list-style-type: decimal;
+}
+
+.\[\&_li\]\:pl-2 li {
+  padding-left: 0.5rem;
+}
+
+.\[\&_li\:\:marker\]\:mr-4 li::marker {
+  margin-right: 1rem;
+}
+
+.\[\&_li\:\:marker\]\:font-serif li::marker {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.\[\&_li\:\:marker\]\:font-semibold li::marker {
+  font-weight: 600;
+}
+
+.\[\&_li\:\:marker\]\:text-red-700 li::marker {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.\[\&_li\:\:marker\]\:text-primary-700 li::marker {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
+.\[\&_li\:\:marker\]\:text-primary-500 li::marker {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.\[\&_li\:\:marker\]\:text-secondary-500 li::marker {
+  --tw-text-opacity: 1;
+  color: rgb(139 92 246 / var(--tw-text-opacity));
+}
+
+.\[\&_li\:\:marker\]\:content-\[\"_\2197\"\] li::marker {
+  --tw-content: " ↗";
+  content: var(--tw-content);
+}
+
+.\[\&_li\:\:marker\]\:content-\[\"\2014\"\] li::marker {
+  --tw-content: "—";
+  content: var(--tw-content);
+}
+
+.\[\&_li\:\:marker\]\:content-\[\"\276F\"\] li::marker {
+  --tw-content: "❯";
+  content: var(--tw-content);
 }
