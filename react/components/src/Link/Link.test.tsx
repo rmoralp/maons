@@ -8,7 +8,7 @@ describe('Link', () => {
     const content = 'content'
 
     // And
-    render(<Link>{content}</Link>)
+    render(<Link href="https://www.w3.org/">{content}</Link>)
 
     // Then
     expect(screen.getByRole('link')).toBeVisible()

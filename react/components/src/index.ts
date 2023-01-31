@@ -20,6 +20,7 @@ export {
 } from './Modal'
 export {Radio} from './Radio'
 export {Select, SelectOption} from './Select'
+export {Separator} from './Separator'
 export {Tag} from './Tag'
 export {Text} from './Text'
 export {Textarea} from './Textarea'
