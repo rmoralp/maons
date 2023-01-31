@@ -23,5 +23,5 @@ export const Default = Template.bind({})
 Default.args = {
   src: 'https://randomuser.me/api/portraits/women/12.jpg',
   alt: 'Jane Doe',
-  size: AvatarSize.xs
+  size: AvatarSize.md
 }
