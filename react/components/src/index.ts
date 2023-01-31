@@ -11,6 +11,7 @@ export {Image} from './Image'
 export {Input} from './Input'
 export {Label} from './Label'
 export {Link} from './Link'
+export {UnorderedList, OrderedList, ListItem} from './List'
 export {
   Modal,
   ModalTrigger,
