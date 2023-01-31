@@ -23,7 +23,6 @@ Maons ("Bricks") is a set of isolated packages ready to combine and help you to 
 ### `@maons/react-components`
 Data display:
 
-- [ ] Code
 - [ ] Separator
 - [ ] List
 - [ ] Table
