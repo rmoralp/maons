@@ -2,7 +2,6 @@ import {ErrorIcon} from '../Icons/Error'
 import {InfoIcon} from '../Icons/Info'
 import {SuccessIcon} from '../Icons/Success'
 import {WarningIcon} from '../Icons/Warning'
-import {cn} from '../utils/cn'
 import {iconStylesByStatus} from './styles'
 import {ToastIconProps, ToastStatus} from './types'
 
