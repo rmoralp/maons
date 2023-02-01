@@ -1,3 +1,4 @@
+export {Alert, AlertDescription, AlertIcon} from './Alert'
 export {Avatar} from './Avatar'
 export {Button} from './Button'
 export {Blockquote, BlockquoteCite, BlockquoteContent} from './Blockquote'
