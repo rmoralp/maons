@@ -9,7 +9,8 @@ import {
   titleStyles,
   viewportStyles
 } from './styles'
-import {ToastColors, ToastProps} from './types'
+import {ToastIcon} from './ToastIcon'
+import {ToastProps} from './types'
 
 export const Provider = T.Provider
 
@@ -18,12 +19,13 @@ export const Viewport = () => <T.Viewport className={viewportStyles} />
 export const Toast = ({
   description,
   duration = 5000,
-  status = ToastColors.info,
+  status,
   title,
   ...props
 }: ToastProps) => {
   return (
     <T.Root className={rootStyles} duration={duration} {...props}>
+      {status && <ToastIcon status={status} />}
       <div>
         <T.Title className={cn(titleStyles)}>{title}</T.Title>
         <T.Description className={cn(descriptionStyles)}>

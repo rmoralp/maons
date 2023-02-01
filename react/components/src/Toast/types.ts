@@ -1,6 +1,8 @@
+import {HTMLAttributes} from 'react'
+
 import * as T from '@radix-ui/react-toast'
 
-export enum ToastColors {
+export enum ToastStatus {
   success = 'success',
   error = 'error',
   warning = 'warning',
@@ -13,9 +15,13 @@ export interface IToast {
   description?: string
   duration?: number
   type?: 'foreground' | 'background'
-  status?: ToastColors
+  status?: ToastStatus
 }
 
 export interface ToastProps extends T.ToastProps, IToast {}
 
 export type ToastContextProps = (toast: IToast) => void
+
+export interface ToastIconProps extends HTMLAttributes<HTMLElement> {
+  status?: ToastStatus
+}
