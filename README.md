@@ -7,7 +7,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center"># Maons 🧱</h3>
+  <h3 align="center">Maons 🧱</h3>
   <p align="center">
     A set of isolated packages ready to combine and help you to create a project asap.
   </p>
@@ -59,15 +59,15 @@ Licensed under the [MIT license][license].
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Badges -->
-[nodejs-badge]: https://img.shields.io/badge/Node.js-%3E=18.0-blue.svg?style=for-the-badge
+[nodejs-badge]: https://img.shields.io/badge/Node.js-%3E=18.0-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v18.x/docs/api/
 
-[npm-badge]: https://img.shields.io/badge/npm-%3E=v9.0.0-blue?style=for-the-badge
+[npm-badge]: https://img.shields.io/badge/npm-%3E=v9.0.0-blue
 [npm]: https://docs.npmjs.com/cli/v9
 
 [tests-ci-badge]: https://github.com/rmoralp/maons/actions/workflows/tests.yml/badge.svg?branch=main&style=for-the-badge
 
-[license-badge]: https://img.shields.io/github/license/rmoralp/maons.svg?style=for-the-badge
+[license-badge]: https://img.shields.io/github/license/rmoralp/maons.svg
 [license-url]: https://github.com/rmoralp/maons/blob/main/LICENSE.md
 
 <!-- Stuff -->
