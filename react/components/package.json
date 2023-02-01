@@ -12,8 +12,9 @@
     "deploy": "npx chromatic --build-script-name build --exit-zero-on-changes",
     "dev": "concurrently \"npm:watch:*\"",
     "prepare": "rm -rf dist && npm run compile",
-    "test:ci": "vitest --run",
+    "lint": "eslint --ext tsx,ts src",
     "test": "vitest",
+    "test:ci": "vitest --run",
     "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./.storybook/tailwind.css --watch",
     "watch:storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006"
   },

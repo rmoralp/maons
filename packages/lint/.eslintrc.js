@@ -91,7 +91,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 2020, // Use the latest ecmascript standard
+    ecmaVersion: 2022, // Use the latest ecmascript standard
     sourceType: 'module' // Allows using import/export statements
   },
   settings: {
@@ -103,9 +103,16 @@ module.exports = {
     'plugin:react/recommended',
     'next',
     'next/core-web-vitals',
+    'plugin:tailwindcss/recommended',
     'prettier'
   ],
-  plugins: ['react', 'no-only-tests', 'prettier', 'simple-import-sort'],
+  plugins: [
+    'react',
+    'no-only-tests',
+    'prettier',
+    'simple-import-sort',
+    'tailwindcss'
+  ],
   rules: {
     ...REACT_RULES,
     ...NEXT_RULES,
