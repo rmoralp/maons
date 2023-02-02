@@ -35,12 +35,6 @@ const REACT_RULES = {
   ]
 }
 
-const NEXT_RULES = {
-  '@next/next/no-img-element': RULES.WARNING,
-  '@next/next/no-html-link-for-pages': RULES.WARNING,
-  '@next/next/no-html-link-for-pages': RULES.OFF
-}
-
 const JS_RULES = {
   'accessor-pairs': RULES.OFF,
   'no-console': RULES.WARNING,
@@ -91,34 +85,59 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 2022, // Use the latest ecmascript standard
+    ecmaVersion: 2020, // Use the latest ecmascript standard
     sourceType: 'module' // Allows using import/export statements
   },
   settings: {
     react: {
       version: 'detect'
+    },
+    'import/parsers': {
+      [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts']
+    },
+    'import/resolver': {
+      [require.resolve('eslint-import-resolver-node')]: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      },
+      [require.resolve('eslint-import-resolver-typescript')]: {
+        alwaysTryTypes: true
+      }
     }
   },
   extends: [
     'plugin:react/recommended',
-    'next',
-    'next/core-web-vitals',
+    'plugin:react-hooks/recommended',
     'plugin:tailwindcss/recommended',
     'prettier'
   ],
   plugins: [
+    'import',
     'react',
+    'react-hooks',
     'no-only-tests',
     'prettier',
     'simple-import-sort',
+    'jsx-a11y',
     'tailwindcss'
   ],
   rules: {
     ...REACT_RULES,
-    ...NEXT_RULES,
     ...JS_RULES,
     '@babel/no-unused-expressions': RULES.OFF,
     'prettier/prettier': [RULES.WARNING, prettierOptions],
     'simple-import-sort/imports': [RULES.WARNING, {groups: sortGroups}]
-  }
+  },
+  overrides: [
+    {
+      files: ['**/*.ts?(x)'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true
+        },
+        warnOnUnsupportedTypeScriptVersion: true
+      }
+    }
+  ]
 }
