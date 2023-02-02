@@ -1,4 +1,4 @@
-import {createContext, useState} from 'react'
+import {createContext, PropsWithChildren, useState} from 'react'
 
 import {Provider, Toast, Viewport} from './Toast'
 import {IToast, ToastContextProps} from './types'

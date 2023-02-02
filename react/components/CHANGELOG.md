@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.17.0...@maons/react-components@1.1.0) (2023-02-02)
+
+
+### Features
+
+* **react/components:** release v1 [skip ci] ([e82d799](https://github.com/rmoralp/maons/commit/e82d799800c1ebf419ee3fbaa01d57df2247f11a))
+* **react/components:** update dependencies ([fde2d2a](https://github.com/rmoralp/maons/commit/fde2d2ae56f0dacf8fa9ac504867305205ab1f74))
+* update dependencies ([fb60181](https://github.com/rmoralp/maons/commit/fb60181d3cd0c9784cc92a87c4a7bcfdf908921a))
+
+
+
+
+
 # [0.17.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.16.0...@maons/react-components@0.17.0) (2023-02-02)
 
 
