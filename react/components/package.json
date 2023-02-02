@@ -1,6 +1,6 @@
 {
   "name": "@maons/react-components",
-  "version": "0.14.5",
+  "version": "0.14.6",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.12",
-    "@maons/lint": "^0.5.2",
+    "@maons/lint": "^0.5.3",
     "@maons/tsconfig": "^0.3.2",
     "@storybook/addon-actions": "6.5.15",
     "@storybook/addon-essentials": "6.5.15",
