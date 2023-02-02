@@ -1,6 +1,6 @@
 {
   "name": "@maons/lint",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "main": ".eslintrc.js",
   "license": "MIT",
   "dependencies": {
