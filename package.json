@@ -21,8 +21,7 @@
   },
   "devDependencies": {
     "@maons/lint": "*",
-    "lerna": "6.3.0",
-    "turbo": "latest"
+    "lerna": "6.4.1"
   },
   "prettier": "@maons/lint/.prettierrc.js"
 }
