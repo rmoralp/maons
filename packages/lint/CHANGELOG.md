@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/rmoralp/maons/compare/@maons/lint@0.3.5...@maons/lint@0.5.0) (2023-02-02)
+
+
+### Bug Fixes
+
+* **packages/lint:** bump ([c693be3](https://github.com/rmoralp/maons/commit/c693be3d084fbc6d7ff33cd3d3c33f7484e8c9b1))
+
+
+### Features
+
+* **packages/lint:** add tailwindcss lint plugin ([3633d9c](https://github.com/rmoralp/maons/commit/3633d9c5ff7e72a2d7adbc440b3ec630fdbf9b25))
+
+
+
+
+
 ## [0.3.5](https://github.com/rmoralp/maons/compare/@maons/lint@0.3.4...@maons/lint@0.3.5) (2022-12-30)
 
 
