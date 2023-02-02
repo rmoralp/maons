@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.4](https://github.com/rmoralp/maons/compare/@maons/react-components@0.14.3...@maons/react-components@0.14.4) (2023-02-02)
+
+
+### Bug Fixes
+
+* **react/components:** do not release src folder ([b4431ca](https://github.com/rmoralp/maons/commit/b4431cae1a26919a027fe1d62ce4906c17166d02))
+
+
+
+
+
 ## [0.14.3](https://github.com/rmoralp/maons/compare/@maons/react-components@0.14.0...@maons/react-components@0.14.3) (2023-02-02)
 
 
