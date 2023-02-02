@@ -1,8 +1,10 @@
-# `@maons/lint`
+<a name="readme-top"></a>
+
+# Lint rules and static code analysis
 
 ESLint and Prettier configuration ready to use in any project.
 
-It includes support for `React.js`, `Next.js` and `Prettier`.
+It includes support for `React.js`, `Next.js`, `Tailwindcss` and `Prettier`.
 
 ## Getting Started
 
@@ -80,3 +82,9 @@ Steps to integrate `@maons/lint` with Visual Studio Code:
   ]
 }
 ```
+
+## License
+
+Licensed under the [MIT license](https://github.com/rmoralp/maons/blob/main/packages/lint/LICENSE.md).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
