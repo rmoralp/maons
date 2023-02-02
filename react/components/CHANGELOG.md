@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.14.2](https://github.com/rmoralp/maons/compare/@maons/react-components@0.14.0...@maons/react-components@0.14.2) (2023-02-02)
+
+
+### Bug Fixes
+
+* **react/components:** release ([cbdfe4b](https://github.com/rmoralp/maons/commit/cbdfe4b0fab3810004a39a21ed90d8324258ec21))
+
+
+
+
+
 # [0.14.0](https://github.com/rmoralp/maons/compare/@maons/react-components@0.13.0...@maons/react-components@0.14.0) (2023-02-01)
 
 
