@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element, jsx-a11y/alt-text */
 import {forwardRef} from 'react'
 
 import {cn} from '../utils/cn'

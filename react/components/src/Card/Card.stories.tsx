@@ -1,4 +1,4 @@
-import React from 'react'
+import {PropsWithChildren} from 'react'
 
 import {ComponentMeta, ComponentStory} from '@storybook/react'
 
@@ -16,7 +16,10 @@ export default {
   }
 } as ComponentMeta<typeof Card>
 
-const Template: ComponentStory<typeof Card> = ({children, ...args}) => (
+const Template: ComponentStory<typeof Card> = ({
+  children,
+  ...args
+}: PropsWithChildren) => (
   <Card {...args}>
     <CardBody>{children}</CardBody>
   </Card>

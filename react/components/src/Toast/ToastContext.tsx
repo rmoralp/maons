@@ -5,7 +5,7 @@ import {IToast, ToastContextProps} from './types'
 
 export const ToastContext = createContext({} as ToastContextProps)
 
-export const ToastProvider = ({children}) => {
+export const ToastProvider = ({children}: PropsWithChildren) => {
   const [toasts, setToasts] = useState<IToast[]>([])
 
   const addToast = (toast: IToast) => {
