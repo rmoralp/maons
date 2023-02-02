@@ -1,7 +1,7 @@
 export {Alert, AlertDescription, AlertIcon} from './Alert'
 export {Avatar} from './Avatar'
-export {Button} from './Button'
 export {Blockquote, BlockquoteCite, BlockquoteContent} from './Blockquote'
+export {Button} from './Button'
 export {Card, CardBody} from './Card'
 export {Checkbox} from './Checkbox'
 export {Code, CodeContainer} from './Code'

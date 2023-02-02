@@ -1,7 +1,40 @@
-## Modal
+# Modal
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/overlay-modal--default)
+
+## Usage
 
 ```js
-import {Modal} from '@maons/react-components'
+import {
+  Modal,
+  ModalTrigger,
+  ModalContent,
+  ModalTitle,
+  ModalDescription
+} from '@maons/react-components'
+
+export default () => {
+  const [open, setOpen] = useState(true)
+
+  return (
+    <Modal open={open} onOpenChange={setOpen}>
+      <ModalTrigger>Open</ModalTrigger>
+      <ModalContent>
+        <ModalTitle>Hello</ModalTitle>
+        <ModalDescription>
+          <p>Lorem ipsum</p>
+        </ModalDescription>
+        <form
+          onSubmit={event => {
+            wait().then(() => setOpen(false))
+            event.preventDefault()
+          }}
+        >
+          {/** some inputs */}
+          <button type="submit">Submit</button>
+        </form>
+      </ModalContent>
+    </Modal>
+  )
+}
 ```

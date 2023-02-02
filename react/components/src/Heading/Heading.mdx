@@ -1,7 +1,34 @@
-## Heading
+# Heading
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/typography-heading--default)
+
+## Usage
 
 ```js
 import {Heading} from '@maons/react-components'
+
+export default function name(params) {
+  return (
+    <>
+      <Heading as="h1">
+        Heading 1
+      </Heading>
+      <Heading as="h2" className="mt-6">
+        Heading 2
+      </Heading>
+      <Heading as="h3" className="mt-6">
+        Heading 3
+      </Heading>
+      <Heading as="h4" className="mt-6">
+        Heading 4
+      </Heading>
+      <Heading as="h5" className="mt-6">
+        Heading 5
+      </Heading>
+      <Heading as="h6" className="mt-6">
+        Heading 6
+      </Heading>
+    </>
+  )
+}
 ```

@@ -1,7 +1,19 @@
 ## Input
 
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/forms-input--default)
+
 ### Usage
 
 ```js
 import {Input} from '@maons/react-components'
+
+export default () => (
+  <Input
+    type="text"
+    placeholder="Enter your name"
+    value="John Doe"
+    isInvalid={false}
+    disabled
+  />
+)
 ```

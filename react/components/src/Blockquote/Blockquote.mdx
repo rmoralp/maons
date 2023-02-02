@@ -1,13 +1,21 @@
-## Blockquote
+# Blockquote
 
-Components:
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/typography-blockquote--default)
 
-- Blockquote
-- BlockquoteCite
-- BlockquoteContent
-
-### Usage
+## Usage
 
 ```js
 import {Blockquote, BlockquoteCite, BlockquoteContent} from '@maons/react-components'
+
+export default function() {
+  return (
+    <Blockquote>
+      <BlockquoteContent>
+          The advance of technology is based on making it fit in so that you do not really even notice it,
+          so it's part of everyday life.
+      </BlockquoteContent>
+      <BlockquoteCite>Bill Gates, Microsoft</BlockquoteCite>
+    </Blockquote>
+  )
+}
 ```

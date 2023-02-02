@@ -1,7 +1,25 @@
-## List
+# List
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/data-display-list--default)
+
+## Usage
 
 ```js
 import {UnorderedList, OrderedList, ListItem} from '@maons/react-components'
+
+export default () => (
+  <>
+    <UnorderedList>
+      <ListItem>Item 1</ListItem>
+      <ListItem>Item 2</ListItem>
+      <ListItem>Item 3</ListItem>
+    </UnorderedList>
+
+    <OrderedList>
+      <ListItem>Item 1</ListItem>
+      <ListItem>Item 2</ListItem>
+      <ListItem>Item 3</ListItem>
+    </OrderedList>
+  </>
+)
 ```

@@ -1,7 +1,21 @@
-## Avatar
+# Avatar
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/media-avatar--default)
+
+## Usage
 
 ```js
 import {Avatar} from '@maons/react-components'
+
+const props = {
+  src: 'https://randomuser.me/api/portraits/women/12.jpg',
+  alt: 'Jane Doe',
+  size: 'md'
+}
+
+export default function() {
+  return (
+    <Avatar {...props} />
+  )
+}
 ```

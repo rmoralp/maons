@@ -1,7 +1,16 @@
-## Input
+# Image
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/media-image--default)
+
+## Usage
 
 ```js
-import {Input} from '@maons/react-components'
+import {Image} from '@maons/react-components'
+
+const props = {
+  src: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Landscape_mountain.jpg',
+  alt: 'landscape'
+}
+
+export default () => <Image {...props} />
 ```

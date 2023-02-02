@@ -1,7 +1,18 @@
-## Fieldset
+# Fieldset
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/forms-fieldset--default)
+
+## Usage
 
 ```js
-import {Fieldset} from '@maons/react-components'
+import {Label, Input, Fieldset} from '@maons/react-components'
+
+export default function() {  
+  return (
+    <Fieldset className="mb-4">
+      <Label htmlFor="city">City</Label>
+      <Input id="city" type="text" />
+    </Fieldset>
+  )
+}
 ```

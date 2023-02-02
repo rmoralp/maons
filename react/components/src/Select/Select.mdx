@@ -1,7 +1,19 @@
-## Select
+# Select
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/forms-select--default)
+
+## Usage
 
 ```js
-import {Select} from '@maons/react-components'
+import {Select, SelectOption} from '@maons/react-components'
+
+export default function() {
+  return (
+    <Select defaultValue={0} isInvalid={false} disabled={false}>
+      <SelectOption value="0" disabled>Select an option</SelectOption>
+      <SelectOption value="1">Option 1</SelectOption>
+      <SelectOption value="2">Option 2</SelectOption>
+    </Select>
+  )
+}
 ```

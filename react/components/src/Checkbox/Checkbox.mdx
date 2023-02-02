@@ -1,7 +1,21 @@
-## Input
+# Checkbox
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/forms-checkbox--default)
+
+## Usage
 
 ```js
-import {Input} from '@maons/react-components'
+import {Checkbox} from '@maons/react-components'
+
+const props = {
+  disabled: false,
+  isInvalid: true,
+  checked: false
+}
+
+export default () => {
+  return (
+    <Checkbox {...props} />
+  )
+}
 ```

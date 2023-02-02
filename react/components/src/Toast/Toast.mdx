@@ -1,7 +1,55 @@
-## Toast
+# Toast
 
-### Usage
+[Live demo](https://main--63cea501d66c7f57c939718b.chromatic.com/?path=/story/feedback-toast--default)
+
+## Usage
 
 ```js
 import {useToast, ToastProvider} from '@maons/react-components'
+
+const DemoToast = () => {
+  const toast = useToast()
+
+  return (
+    <>
+      <Button
+        onClick={() => toast({...toastContent, status: 'success'})}
+        size="sm"
+        className="mb-4"
+      >
+        Add success toast
+      </Button>
+      <br />
+      <Button
+        onClick={() => toast({...toastContent, status: 'error'})}
+        size="sm"
+        className="mb-4"
+      >
+        Add error toast
+      </Button>
+      <br />
+      <Button
+        onClick={() => toast({...toastContent, status: 'info'})}
+        size="sm"
+        className="mb-4"
+      >
+        Add info toast
+      </Button>
+      <br />
+      <Button
+        onClick={() => toast({...toastContent, status: 'warning'})}
+        size="sm"
+        className="mb-4"
+      >
+        Add warning toast
+      </Button>
+    </>
+  )
+}
+
+export const Default = () => (
+  <ToastProvider>
+    <DemoToast />
+  </ToastProvider>
+)
 ```
