@@ -1,0 +1,20 @@
+{
+  "name": "@maons/react-hooks",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@maons/lint": "*",
+    "@maons/tsconfig": "*"
+  },
+  "eslintConfig": {
+    "extends": "../../node_modules/@maons/lint/.eslintrc.js"
+  }
+}
