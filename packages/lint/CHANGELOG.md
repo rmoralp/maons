@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/rmoralp/maons/compare/@maons/lint@0.6.0...@maons/lint@0.6.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* **packages/lint:** remove next dependency ([ddf3881](https://github.com/rmoralp/maons/commit/ddf3881066a7327a7afbfd1725eff2b269f6f08d))
+
+
+
+
+
 # [0.6.0](https://github.com/rmoralp/maons/compare/@maons/lint@0.5.3...@maons/lint@0.6.0) (2023-02-02)
 
 
