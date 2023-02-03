@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.3...@maons/react-components@1.1.4) (2023-02-03)
+
+
+### Bug Fixes
+
+* **react/components:** latest lint ([3387b94](https://github.com/rmoralp/maons/commit/3387b9439d8390599eb03147a11a7e0a6e8fb6d0))
+* **react/components:** remove not needed dependency ([952bc18](https://github.com/rmoralp/maons/commit/952bc18d9cf6e7fbab17ed6517035d832958237e))
+
+
+
+
+
 ## [1.1.3](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.2...@maons/react-components@1.1.3) (2023-02-03)
 
 **Note:** Version bump only for package @maons/react-components
