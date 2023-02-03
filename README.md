@@ -34,7 +34,7 @@
 
 ### Linting
 
-[@maons/lint](./packages/lint) is a package that includes `eslint` configurations (includes `Next.js`, `React.js` and `Prettier`
+[@maons/lint](./packages/lint) is a package that includes `eslint` configurations (includes support for `React.js`, `Tailwindcss` and `Prettier`)
 
 ### Typescript configurations
 
