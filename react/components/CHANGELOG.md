@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.1...@maons/react-components@1.1.2) (2023-02-03)
+
+
+### Bug Fixes
+
+* **react/components:** add react as peer dependency ([976ebce](https://github.com/rmoralp/maons/commit/976ebce49a3be9eb188f0e6652e8f0933244105b))
+
+
+
+
+
 ## [1.1.1](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.0...@maons/react-components@1.1.1) (2023-02-03)
 
 **Note:** Version bump only for package @maons/react-components
