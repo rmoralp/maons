@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.4...@maons/react-components@1.1.5) (2023-02-04)
+
+
+### Bug Fixes
+
+* **react/components:** types ([422bdcc](https://github.com/rmoralp/maons/commit/422bdccc735ea9eeef9315b80276014ef8acd63b))
+* **react/components:** types ([ea55856](https://github.com/rmoralp/maons/commit/ea5585650cf73afc99943cdda971d848c4c6d7df))
+
+
+
+
+
 ## [1.1.4](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.3...@maons/react-components@1.1.4) (2023-02-03)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@maons/react-hooks",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@maons/lint": "*",
-    "@maons/tsconfig": "*",
+    "@maons/tsconfig": "^0.3.3",
     "@testing-library/jest-dom": "5.16.5",
     "@vitejs/plugin-react": "3.1.0",
     "jsdom": "21.0.0",
