@@ -1,4 +1,4 @@
-import {ParamHTMLAttributes} from 'react'
+import {HTMLAttributes} from 'react'
 
 export enum TextElement {
   abbr = 'abbr',
@@ -22,6 +22,6 @@ export enum TextElement {
   u = 'u'
 }
 
-export interface TextProps extends ParamHTMLAttributes<HTMLParagraphElement> {
+export interface TextProps extends HTMLAttributes<HTMLElement> {
   as?: TextElement
 }

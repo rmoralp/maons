@@ -2,9 +2,9 @@ import {forwardRef} from 'react'
 
 import {cn} from '../utils/cn'
 import {defaultContainerStyles} from './styles'
-import {CodeProps} from './types'
+import {CodeContainerProps} from './types'
 
-const CodeContainer = forwardRef<HTMLElement, CodeProps>(
+const CodeContainer = forwardRef<HTMLPreElement, CodeContainerProps>(
   ({className, ...props}, ref) => {
     return (
       <pre

@@ -6,7 +6,7 @@ import {TextElement, TextProps} from './types'
 
 const markElement = TextElement.mark
 
-const Text = forwardRef<HTMLParagraphElement, TextProps>(
+const Text = forwardRef<any, TextProps>(
   ({as: element, className, ...props}, ref) => {
     if (element === markElement) {
       return <Highlight {...props} />
