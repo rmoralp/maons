@@ -4,15 +4,28 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "check": "tsc --noEmit",
+    "prepare": "rm -rf dist && npm run compile",
+    "lint": "eslint --ext tsx,ts src",
+    "test": "vitest",
+    "test:ci": "vitest --run"
   },
   "license": "MIT",
   "peerDependencies": {
     "react": ">=18.0.0"
   },
+  "dependencies": {
+    "intersection-observer": "0.12.2"
+  },
   "devDependencies": {
     "@maons/lint": "*",
-    "@maons/tsconfig": "*"
+    "@maons/tsconfig": "*",
+    "@testing-library/jest-dom": "5.16.5",
+    "@vitejs/plugin-react": "3.1.0",
+    "jsdom": "21.0.0",
+    "typescript": "4.9.5",
+    "vitest": "0.28.3"
   },
   "eslintConfig": {
     "extends": "../../node_modules/@maons/lint/.eslintrc.js"
