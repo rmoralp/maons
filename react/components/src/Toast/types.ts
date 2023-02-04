@@ -1,4 +1,4 @@
-import {HTMLAttributes} from 'react'
+import {HTMLAttributes, SVGAttributes} from 'react'
 
 import * as T from '@radix-ui/react-toast'
 
@@ -22,6 +22,6 @@ export interface ToastProps extends T.ToastProps, IToast {}
 
 export type ToastContextProps = (toast: IToast) => void
 
-export interface ToastIconProps extends HTMLAttributes<HTMLElement> {
+export interface ToastIconProps extends SVGAttributes<HTMLOrSVGElement> {
   status?: ToastStatus
 }

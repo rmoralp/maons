@@ -1,4 +1,4 @@
-import {HTMLAttributes} from 'react'
+import {HTMLAttributes, SVGAttributes} from 'react'
 
 export enum AlertStatus {
   info = 'info',
@@ -13,6 +13,6 @@ export interface AlertProps extends HTMLAttributes<HTMLElement> {
 
 export interface AlertDescriptionProps extends HTMLAttributes<HTMLElement> {}
 
-export interface AlertIconProps extends HTMLAttributes<HTMLElement> {
+export interface AlertIconProps extends SVGAttributes<HTMLOrSVGElement> {
   status?: AlertStatus
 }

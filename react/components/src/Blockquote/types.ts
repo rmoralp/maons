@@ -1,10 +1,10 @@
-import {ParamHTMLAttributes} from 'react'
+import {ParamHTMLAttributes, QuoteHTMLAttributes} from 'react'
 
 export interface BlockquoteProps
-  extends ParamHTMLAttributes<HTMLParagraphElement> {}
+  extends QuoteHTMLAttributes<HTMLQuoteElement> {}
 
 export interface BlockquoteContentProps
   extends ParamHTMLAttributes<HTMLParagraphElement> {}
 
 export interface BlockquoteCiteProps
-  extends ParamHTMLAttributes<HTMLParagraphElement> {}
+  extends QuoteHTMLAttributes<HTMLQuoteElement> {}

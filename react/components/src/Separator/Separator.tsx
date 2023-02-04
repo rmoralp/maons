@@ -4,7 +4,7 @@ import {cn} from '../utils/cn'
 import {defaultStyles} from './styles'
 import {SeparatorProps} from './types'
 
-const Separator = forwardRef<HTMLElement, SeparatorProps>(
+const Separator = forwardRef<HTMLHRElement, SeparatorProps>(
   ({className, ...props}, ref) => {
     return <hr className={cn(defaultStyles, className)} ref={ref} {...props} />
   }
