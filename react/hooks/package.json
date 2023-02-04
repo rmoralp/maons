@@ -7,9 +7,7 @@
     "compile": "tsc",
     "check": "tsc --noEmit",
     "prepare": "rm -rf dist && npm run compile",
-    "lint": "eslint --ext tsx,ts src",
-    "test": "vitest",
-    "test:ci": "vitest --run"
+    "lint": "eslint --ext tsx,ts src"
   },
   "license": "MIT",
   "peerDependencies": {
