@@ -24,6 +24,7 @@
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
+    "@maons/react-hooks": "*",
     "@radix-ui/react-dialog": "1.0.2",
     "@radix-ui/react-toast": "1.1.2",
     "clsx": "1.2.1",
@@ -32,7 +33,7 @@
   "devDependencies": {
     "@babel/core": "7.20.12",
     "@maons/lint": "*",
-    "@maons/tsconfig": "^0.3.3",
+    "@maons/tsconfig": "*",
     "@mdx-js/react": "2.2.1",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-essentials": "6.5.16",

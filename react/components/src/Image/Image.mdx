@@ -14,3 +14,19 @@ const props = {
 
 export default () => <Image {...props} />
 ```
+
+and for lazy loading:
+
+```js
+import {Image} from '@maons/react-components'
+
+export default () => (
+  <Image
+    src="https://upload.wikimedia.org/wikipedia/commons/8/86/Landscape_mountain.jpg"
+    alt="landscape"
+    loading="lazy"
+    userAgent={navigator.userAgent}
+    height="300"
+  />
+)
+```

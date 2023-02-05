@@ -17,7 +17,7 @@ export const useOnScreen = ({
 }: UseOnScreenOptions) => {
   // State and setter for storing whether element is visible or not
   const [isIntersecting, setIntersecting] = useState(initialValue)
-  const outerRef = useRef()
+  const outerRef = useRef<HTMLElement>()
 
   useEffect(() => {
     const usableRef = ref || outerRef
