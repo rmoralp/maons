@@ -17,8 +17,8 @@
     "intersection-observer": "0.12.2"
   },
   "devDependencies": {
-    "@maons/lint": "*",
-    "@maons/tsconfig": "^0.3.3",
+    "@maons/lint": "latest",
+    "@maons/tsconfig": "latest",
     "@testing-library/jest-dom": "5.16.5",
     "@vitejs/plugin-react": "3.1.0",
     "jsdom": "21.0.0",
