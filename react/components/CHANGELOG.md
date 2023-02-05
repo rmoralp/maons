@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.5...@maons/react-components@1.2.0) (2023-02-05)
+
+
+### Features
+
+* **react/components:** enable lazy loading ([70c4bda](https://github.com/rmoralp/maons/commit/70c4bdabc0eafc3309b58b24f12d832672643f73))
+
+
+
+
+
 ## [1.1.5](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.4...@maons/react-components@1.1.5) (2023-02-04)
 
 
