@@ -653,6 +653,18 @@ video {
   height: 2.5rem;
 }
 
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.h-\[3000px\] {
+  height: 3000px;
+}
+
+.h-\[2000px\] {
+  height: 2000px;
+}
+
 .w-full {
   width: 100%;
 }
