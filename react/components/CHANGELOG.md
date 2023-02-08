@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.2.0...@maons/react-components@1.3.0) (2023-02-08)
+
+
+### Features
+
+* **react/components:** add motion to Toast ([4d72c51](https://github.com/rmoralp/maons/commit/4d72c5109df6ecd72fa070dea578afe0d8b16bb2))
+* **react/components:** animations for Modal ([ac6d984](https://github.com/rmoralp/maons/commit/ac6d984495fe4707c7ae8b4bbf7a719601050b0e))
+
+
+
+
+
 # [1.2.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.1.5...@maons/react-components@1.2.0) (2023-02-05)
 
 
