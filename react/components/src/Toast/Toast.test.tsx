@@ -1,4 +1,4 @@
-import {fireEvent, render, screen} from '@testing-library/react'
+import {fireEvent, render, screen, waitFor} from '@testing-library/react'
 
 import {ToastProvider} from './ToastContext'
 import {useToast} from './useToast'
@@ -32,11 +32,17 @@ const Default = () => {
 }
 
 describe('Toast', () => {
-  it('renders correctly', () => {
+  it('renders correctly', async () => {
     render(<Default />)
 
     fireEvent.click(screen.getByRole('button'))
+
     // Then
-    expect(screen.getByText(customToast.title)).toBeVisible()
+    await waitFor(() => {
+      const title = screen.getByText('Title')
+
+      expect(title).toBeInTheDocument()
+      expect(title).toBeVisible()
+    })
   })
 })

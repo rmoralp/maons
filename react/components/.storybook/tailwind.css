@@ -525,6 +525,10 @@ video {
   border-width: 0;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -621,6 +625,10 @@ video {
   display: inline-flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -645,24 +653,16 @@ video {
   height: 1rem;
 }
 
+.h-\[2000px\] {
+  height: 2000px;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.h-\[3000px\] {
-  height: 3000px;
-}
-
-.h-\[2000px\] {
-  height: 2000px;
 }
 
 .w-full {
@@ -728,6 +728,10 @@ video {
 
 .-translate-y-\[50\%\] {
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1212,6 +1216,14 @@ video {
 
 .transition-all {
   transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }

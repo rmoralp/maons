@@ -1,3 +1,4 @@
+import {AnimatePresence} from 'framer-motion'
 import {createContext, PropsWithChildren, useState} from 'react'
 
 import {Provider, Toast, Viewport} from './Toast'
@@ -5,7 +6,7 @@ import {IToast, ToastContextProps} from './types'
 
 export const ToastContext = createContext({} as ToastContextProps)
 
-export const ToastProvider = ({children}: PropsWithChildren) => {
+export function ToastProvider({children}: PropsWithChildren) {
   const [toasts, setToasts] = useState<IToast[]>([])
 
   const addToast = (toast: IToast) => {
@@ -24,28 +25,30 @@ export const ToastProvider = ({children}: PropsWithChildren) => {
     <ToastContext.Provider value={addToast}>
       <Provider>
         {children}
-        {toasts.map(toast => {
-          return (
-            <Toast
-              key={toast.id}
-              onOpenChange={open => {
-                if (!open) {
-                  setTimeout(() => {
-                    setToasts(currentToasts =>
-                      currentToasts.filter(t => t.id !== toast.id)
-                    )
-                  }, 100) // Wait for the hide animation to finish
-                }
-              }}
-              onSwipeEnd={() => {
-                setToasts(currentToasts =>
-                  currentToasts.filter(t => t.id !== toast.id)
-                ) // Avoid hide animation when closing the toast by swiping
-              }}
-              {...toast}
-            />
-          )
-        })}
+        <AnimatePresence>
+          {toasts.map(toast => {
+            return (
+              <Toast
+                key={toast.id}
+                onOpenChange={open => {
+                  if (!open) {
+                    setTimeout(() => {
+                      setToasts(currentToasts =>
+                        currentToasts.filter(t => t.id !== toast.id)
+                      )
+                    }, 100) // Wait for the hide animation to finish
+                  }
+                }}
+                onSwipeEnd={() => {
+                  setToasts(currentToasts =>
+                    currentToasts.filter(t => t.id !== toast.id)
+                  ) // Avoid hide animation when closing the toast by swiping
+                }}
+                {...toast}
+              />
+            )
+          })}
+        </AnimatePresence>
         <Viewport />
       </Provider>
     </ToastContext.Provider>

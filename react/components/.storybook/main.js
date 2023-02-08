@@ -20,5 +20,16 @@ module.exports = {
       },
     },
   ],
-  "framework": "@storybook/react"
+  "framework": "@storybook/react",
+  // Fix to support mjs files in Storybook - required for framer-motion
+  // https://stackoverflow.com/questions/72710138/framer-motion-with-storybook-error-in-build-environment
+  webpackFinal: async (config) => {
+    config.module.rules.push({
+      test: /\.mjs$/,
+      include: /node_modules/,
+      type: "javascript/auto",
+    });
+
+    return config;
+  }
 }

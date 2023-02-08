@@ -31,7 +31,7 @@ export const Default = () => {
       <ModalTrigger>Open</ModalTrigger>
       <ModalContent>
         <ModalTitle>Hello</ModalTitle>
-        <ModalDescription>
+        <ModalDescription asChild>
           <p>Lorem ipsum</p>
         </ModalDescription>
         <form
