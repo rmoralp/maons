@@ -17,6 +17,7 @@ const REACT_RULES = {
     RULES.WARNING,
     {
       allowAllCaps: true,
+      allowNamespace: true,
       ignore: []
     }
   ],
