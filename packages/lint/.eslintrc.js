@@ -16,8 +16,8 @@ const REACT_RULES = {
   'react/jsx-pascal-case': [
     RULES.WARNING,
     {
-      allowAllCaps: true,
       allowNamespace: true,
+      allowAllCaps: true,
       ignore: []
     }
   ],
