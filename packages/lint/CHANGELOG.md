@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.4](https://github.com/rmoralp/maons/compare/@maons/lint@0.6.3...@maons/lint@0.6.4) (2023-02-14)
+
+
+### Bug Fixes
+
+* fix docs ([0660872](https://github.com/rmoralp/maons/commit/0660872609955567c18633260429421554c08c70))
+* **packages/lint:** bump ([44a1ab8](https://github.com/rmoralp/maons/commit/44a1ab85c6a0e4f3ec263fbca94c937d3fe5fd04))
+* react/jsx-pascal-case rule namespaces ([0d47bd3](https://github.com/rmoralp/maons/commit/0d47bd312d6dbe54d98731c37f58edb3e1e0095f))
+
+
+
+
+
 ## [0.6.3](https://github.com/rmoralp/maons/compare/@maons/lint@0.6.2...@maons/lint@0.6.3) (2023-02-03)
 
 **Note:** Version bump only for package @maons/lint

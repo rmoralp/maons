@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/rmoralp/maons/compare/@maons/react-hooks@0.1.1...@maons/react-hooks@0.1.2) (2023-02-14)
+
+**Note:** Version bump only for package @maons/react-hooks
+
+
+
+
+
 ## [0.1.1](https://github.com/rmoralp/maons/compare/@maons/react-hooks@0.1.0...@maons/react-hooks@0.1.1) (2023-02-05)
 
 
