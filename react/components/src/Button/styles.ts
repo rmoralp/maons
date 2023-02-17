@@ -1,6 +1,7 @@
 import {ButtonColor, ButtonSize, ButtonVariant} from './types'
 
-export const defaultStyles = 'rounded-md shadow transition-all'
+export const defaultStyles =
+  'inline-flex items-center justify-center rounded-md shadow transition-all'
 
 export const stylesBySize = {
   [ButtonSize.xs]: 'py-1 px-2 text-xs',
