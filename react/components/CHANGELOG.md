@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.3.1...@maons/react-components@1.4.0) (2023-02-20)
+
+
+### Bug Fixes
+
+* **react/components:** center button childrens ([8bfcffd](https://github.com/rmoralp/maons/commit/8bfcffd825fe9b3bed1f138736bce035076cdc91))
+
+
+### Features
+
+* **react/components:** separate client components export ([36ae7cc](https://github.com/rmoralp/maons/commit/36ae7cc70a977e55483a9959a54acd4c7496f9f1))
+
+
+
+
+
 ## [1.3.1](https://github.com/rmoralp/maons/compare/@maons/react-components@1.3.0...@maons/react-components@1.3.1) (2023-02-14)
 
 **Note:** Version bump only for package @maons/react-components
