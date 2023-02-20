@@ -13,17 +13,9 @@ export {Input} from './Input'
 export {Label} from './Label'
 export {Link} from './Link'
 export {UnorderedList, OrderedList, ListItem} from './List'
-export {
-  Modal,
-  ModalTrigger,
-  ModalContent,
-  ModalTitle,
-  ModalDescription
-} from './Modal'
 export {Radio} from './Radio'
 export {Select, SelectOption} from './Select'
 export {Separator} from './Separator'
 export {Tag} from './Tag'
 export {Text} from './Text'
 export {Textarea} from './Textarea'
-export {useToast, ToastProvider} from './Toast'
