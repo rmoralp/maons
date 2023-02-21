@@ -1,3 +1,4 @@
+export {Image} from './Image'
 export {
   Modal,
   ModalTrigger,
