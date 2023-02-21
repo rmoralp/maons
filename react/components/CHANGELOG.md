@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.4.0...@maons/react-components@1.5.0) (2023-02-21)
+
+
+### Features
+
+* **react/components:** move image as a client ([578c437](https://github.com/rmoralp/maons/commit/578c437482bab35ac9485d449d8b8ec863ac7404))
+
+
+
+
+
 # [1.4.0](https://github.com/rmoralp/maons/compare/@maons/react-components@1.3.1...@maons/react-components@1.4.0) (2023-02-20)
 
 
